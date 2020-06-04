@@ -21,7 +21,7 @@ Hey iOS developer. Welcome. Your mission, should you choose to accept it, is to 
 
 # Some tips
 
-* We've provided some boilerplate code for you to get up and running fast!  We encourage you to use it if you think it will help, but feel free to roll your own solution if you like.
+* We've provided some boilerplate code for you to get up and running! We encourage you to use it if you think it will help, but feel free to roll your own solution if you like. The boilerplate code uses a Storyboard for the UI, but you are also welcome to throw that away, build everything in code or even use SwiftUI.
 * Use iOS 13 as the deployment target, so that you can use the latest and greates APIs from Apple.
 
 # Mini API
