@@ -22,23 +22,32 @@ Hey iOS developer. Welcome. Your mission, should you choose to accept it, is to 
 # Some tips
 
 * We've provided some boilerplate code for you to get up and running! We encourage you to use it if you think it will help, but feel free to roll your own solution if you like. The boilerplate code uses a Storyboard for the UI, but you are also welcome to throw that away, build everything in code or even use SwiftUI.
-* Use iOS 13 as the deployment target, so that you can use the latest and greates APIs from Apple.
+* We've added a mock network client. You may choose to use this until you implement the networking.
+* Feel free to use iOS 13 as the deployment target, so that you can use the latest and greates APIs from Apple.
+
+# Grading
+
+The exercise will be graded on a number of criteria including, but not limited to:
+
+* Clean and readable code
+* Code that to some extent follows the SOLID principles (https://en.wikipedia.org/wiki/SOLID)
+* Demonstrated knowledge of MVC, delegation, UI and navigation, fetching and parsing JSON data, git, dependency management*
+
+NOTES: 
+
+* If you choose to use another architecture than MVC (e.g. MVVM, MVP, VIPER, TCA) then don't worry about the MVC requirement
+* If you choose another way of getting information from a child VC to a parent than through delegation (e.g. some reactive framework or something else) then don't worry about demonstrating knowledge about delegation.
+* If you choose not to use any third party dependencies, but do everything on your own, don't worry about dependency management.
+* You are free to choose between UIKit and SwiftUI, but choose the technology that you're comfortable with so that you can complete the task within the time limit.
+
 
 # Mini API
 
-All API requests are made to:
+There is only one API request:
 
-    http://xxx/api/{version}
+    https://run.mocky.io/v3/4e23865c-b464-4259-83a3-061aaee400ba
 
-## GET Shopping Carts
-List all available shopping carts
-
-    GET /api/v1/carts
-
-## GET Shopping Cart
- Get a shopping cart by id
-
-    GET /api/v1/cart/:id
+The result is a JSON object with keys and values, where the values are 'Product' entities. The entities are keyed by their id.
     
 # Acknowledgements
 This repo was heavily inspired by TuneIn: https://github.com/tunein/FrontEndTakeHome_Challenge
