@@ -14,15 +14,17 @@ Hey iOS developer. Welcome. Your mission, should you choose to accept it, is to 
 # Your Tasks
 
 * Fork this repository and check out your own fork as a basis for the app.
-* Be creative with this. We want to see a functional app that uses the demo API. When in doubt, make an executive decision. *Functionality is more important than the look and feel*. If you finish early, feel free to polish it up.
-* The home page of your app shows a list of shopping carts. You decide how you want to order the carts and how they are displayed.
-* A user should be able to tap on a shopping cart in the list.  When a cart is tapped, the app should display details about all the items in the shopping cart - as well as a total and a total tax amount.
+* The main page of your app should show the contents of a 'shopping basket'. Inititially the basket will be empty, but it should be possible to add products to the basket and also to clear the current contents of the basket.
+* Products to be added should be fetched from the API endpoint included below. They should be presented on a separate view controller, and the presentation should include at least the product name and image.
+* When products have been added to the shopping basket, they should be visible on the main page along with a total, that is the sum of the retail prices of all the products added to the basket.
+* Be creative with this. We want to see a functional app that demonstrates knowledge with the platform and the language. When in doubt, make an executive decision. *Functionality is more important than the look and feel*. If you finish early, feel free to polish it up.
+* For instance: If the same product is added twice you are welcome to either show it twice in the basket - or show it once with a quantity of 2. That is up to you. You may choose to add functionality to display further details about a product - like the description, but only do this if you have the time.
 * Once finished, send a link to your fork of the repository to jobs@ka-ching.dk
 
 # Some tips
 
 * We've provided some boilerplate code for you to get up and running! We encourage you to use it if you think it will help, but feel free to roll your own solution if you like. The boilerplate code uses a Storyboard for the UI, but you are also welcome to throw that away, build everything in code or even use SwiftUI.
-* We've added a mock network client. You may choose to use this until you implement the networking.
+* We've added a (very simple) mock network client. You may choose to use this until you implement the networking.
 * Feel free to use iOS 13 as the deployment target, so that you can use the latest and greates APIs from Apple.
 
 # Grading
@@ -41,7 +43,7 @@ NOTES:
 * You are free to choose between UIKit and SwiftUI, but choose the technology that you're comfortable with so that you can complete the task within the time limit.
 
 
-# Mini API
+# Micro API
 
 There is only one API request:
 
