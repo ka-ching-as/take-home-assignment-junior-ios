@@ -8,6 +8,9 @@
 
 import Foundation
 
+// You may use this URL to load data similar to that which is present in DemoData.swift
+let demoDataURL = URL(string: "https://run.mocky.io/v3/4e23865c-b464-4259-83a3-061aaee400ba")!
+
 class NetworkServiceMock {
     func fetchData(completion: @escaping (Result<Data, Error>) -> Void) {
         let data = Data(demoData.utf8)
