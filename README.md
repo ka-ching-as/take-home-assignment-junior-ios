@@ -19,7 +19,7 @@ Hey iOS developer. Welcome. Your mission, should you choose to accept it, is to 
 * When products have been added to the shopping basket, they should be visible on the main page along with a total, that is the sum of the retail prices of all the products added to the basket.
 * Be creative with this. We want to see a functional app that demonstrates knowledge with the platform and the language. When in doubt, make an executive decision. *Functionality is more important than the look and feel*. If you finish early, feel free to polish it up.
 * For instance: If the same product is added twice you are welcome to either show it twice in the basket - or show it once with a quantity of 2. That is up to you. You may choose to add functionality to display further details about a product - like the description, but only do this if you have the time.
-* Once finished, send a link to your fork of the repository to jobs@ka-ching.dk
+* Once finished, send a link to your fork of the repository to operations@ka-ching.dk
 
 # Some tips
 
